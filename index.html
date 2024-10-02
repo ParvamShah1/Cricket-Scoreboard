@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cricket Scorecard</h1>
+    <span id="runs">0</span>
+    <span>/</span>
+    <span id="wickets">0</span>
+    <div>
+    <button onclick="dot()">dot ball</button>
+    <button onclick="single()">1</button>
+    <button onclick="double()">2</button>
+    <button onclick="triple()">3</button>
+    <button onclick="four()">4</button>
+    <button onclick="six()">6</button>
+    <button onclick="noball()">No Ball</button>
+    <button onclick="wide()">Wide</button>
+    </div>
+    <button onclick="wicket()" style="background-color: red;">Wicket</button>
+    <p id="thisover">This over: </p>
+    <span>Overs Completed:</span>
+    <span id="overscompleted"> </span>
+    <p id="completed"></p>
+   
+   
+    <script src="script.js"></script>
+</body>
+</html>
